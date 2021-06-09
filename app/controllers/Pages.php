@@ -8,8 +8,9 @@
             $this->view('pages/index', $data);
         }
 
-        public function about($id){
-           $this->view('pages/about');
+        public function about(){
+            $data = ['title' => 'About Us'];
+           $this->view('pages/about', $data);
         }
 
 
